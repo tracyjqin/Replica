@@ -1,0 +1,105 @@
+html {
+    text-size-adjust: none;
+}
+
+body {
+    font-family: "Calibri";
+    color: #333333;
+    line-height: 29px;
+    font-size: 20px;
+}
+
+h2 {
+    padding-top: 5px;
+    font-size: 28px;
+    line-height: 26px;
+}
+
+li {
+    font-size: 23px;
+}
+
+span {
+    font-size: 20px;
+}
+
+#flex-container {
+    display: flex;
+    font-size: 20px;
+}
+
+.introduction {
+    width: 816px;
+    height: 163px;
+    padding: 1px 18px;
+    margin-left: 30px;
+}
+
+.description {
+    padding-left: 47px;
+    line-height: 28px;
+}
+
+.scene-heading {
+    width: 251px;
+    height: 47px;
+    margin: 40px 0px 0px 13px;
+    background-color: #f3cd4a;
+}
+
+.scene-heading-text {
+    padding-top: 10px;
+    font-size: 33px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.koala-information {
+    padding-top: 17px;
+    width: 312px;
+    height: 145px;
+    background-color: #eeeeee;
+    color: #666666;
+}
+
+.koala-heading {
+    font-weight: bold;
+    font-size: 29px;
+    margin-left: 17px;
+    line-height: 40px;
+}
+
+.koala-text {
+    width: 194px;
+    margin-top: 4px;
+    padding-left: 18px;
+    line-height: 28px;
+}
+
+.koala-description-one {
+    line-height: 20px;
+}
+
+.koala-description-two {
+    padding-top: 4px;
+    line-height: 28px;
+}
+
+.koala-description-three {
+    padding-top: 15px;
+    line-height: 0px;
+}
+
+.elephant-heading {
+    padding-top: 10px;
+}
+
+.elephant-description-one {
+    margin-top: -3px;
+    line-height: 28px;
+}
+
+.elephant-points {
+    margin: -1px 0px 0px 11px;
+    padding-left: -2px;
+}

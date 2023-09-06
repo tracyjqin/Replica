@@ -1,0 +1,333 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.column:hover, .column-bottom:hover {
+    opacity: 0.5;
+}
+
+h1 {
+    margin-top: 11px;
+    letter-spacing: -1px;
+}
+
+h2, h3 {
+    font-size: 28px;
+}
+
+h3 {
+    margin-top: 75px;
+    letter-spacing: -1px;
+}
+
+h1, h4 {
+    line-height: 62px;
+    margin-top: 11px;
+}
+
+p {
+    text-align: center;
+    font-size: 20px;
+    margin-top: -10px;
+    line-height: 31px;
+}
+
+p1, p4 {
+    font-size: 24px;
+}
+
+p2 {
+    line-height: 40px;
+    font-size: 20px;
+}
+
+p3 {
+    font-size: 23px;
+    line-height: 35px;
+    padding-top: 200px;
+}
+
+p4 {
+    font-weight: bold;
+
+}
+
+.heading-text {
+    text-align: center;
+}
+
+.container {
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.column, .column-bottom {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.image-resize-top {
+    height: 230px;
+    width: 230px;
+}
+
+.image-resize {
+    margin-top: 28px;
+    height: 150px;
+    width: 150px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.row-align {
+    margin-top: -5px;
+}
+
+.get-started-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffff70;
+    margin: 0 auto;
+}
+
+.get-started {
+    padding-left: 38px;
+}
+
+.join-now {
+    margin-top: -60px;
+}
+
+.app-store, .google-play {
+    width: 190px;
+    height: 57px;
+}
+
+.invite-code {
+    display: inline-block;
+    width: 128px;
+    height: 36px;
+    background-color: #8e42ff;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.invite-code:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 699px) {
+    h1 br {
+        display: none;
+    }
+
+    h1 {
+        margin-top: 11px;
+        font-size: 35px;
+        padding-top: 2px;
+        letter-spacing: -1px;
+        line-height: 40px;
+    }
+
+    h2 {
+        margin-top: 22px;
+    }
+
+    h4 {
+        font-size: 45px;
+        line-height: 33px;
+        text-align: center;
+        padding: 0px 20px 0px 20px;
+        margin-top: 28px;
+    }
+
+    p {
+        margin-top: -7px;
+    }
+
+    p1, p4 {
+        font-size: 26px;
+    }
+
+    .heading-text {
+        padding: 22px 0px 1px 0px;
+        overflow-wrap: break-normal;
+    }
+
+    .column {
+        margin-top: 3px;
+    }
+
+    .column-bottom {
+        padding-bottom: 18px;
+    }
+
+    .image-resize-top {
+        height: 240px;
+        width: 240px;
+    }
+
+    .icons-align {
+        padding-top: 78px;
+    }
+
+    .get-started-wrap {
+        padding-top: 76px;
+        text-align: left;
+    }
+
+    .get-started-box {
+        width: 377px;
+        height: 472px;
+    }
+
+    .get-started {
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .join-now {
+        margin: -45px 20px 0px 20px;
+    }
+
+    .button-align {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .app-store, .google-play {
+        width: 190px;
+        height: 57px;
+    }
+
+    .app-store {
+        padding-top: 10px;
+    }
+    
+    .google-play {
+        margin-left: auto;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width:1149px){
+    h1 br {
+        display: none;
+    }
+
+    h1, h4 {
+        font-size: 40px;
+        padding-top: 1px;
+        text-align: center;
+    }
+
+    h2 {
+        margin-top: 37px;
+    }
+
+    p2 {
+        text-align: center;
+        padding-left: 119px;
+    }
+
+    .column, .column-bottom {
+        margin-top: 60px;
+        padding-bottom: 46px;
+    }
+
+    .column-padding-right {
+        padding-right: 60px;
+    }
+
+    .column-padding-left {
+        padding-left: 60px;
+    }
+
+    .get-started-wrap {
+        padding-top: 0px;
+    }
+
+    .get-started-box {
+        width: 600px;
+        height: 330px;
+    }
+
+    .get-started {
+        text-align: left;
+    }
+
+    .join-now {
+        text-align: center;
+        margin-left: -25px;
+    }
+
+    .button-align {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    .app-store, .google-play {
+        padding-top: 0px;
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    h1, h4 {
+        font-size: 50px;
+        padding-top: 1px;
+    }
+
+    h2 {
+        margin-top: 37px;
+    }
+
+    .column, .column-bottom {
+        margin-top: 60px;
+        padding-bottom: 46px;
+    }
+
+    .column-padding-right {
+        padding-right: 60px;
+    }
+
+    .column-padding-left {
+        padding-left: 60px;
+    }
+
+    .get-started-wrap {
+        padding-top: 86px;
+        text-align: left;
+    }
+
+    .get-started-box {
+        flex-direction: row;
+        width: 1120px;
+        height: 209px;
+    }
+
+    .get-started {
+        text-align: left;
+    }
+
+    .app-store {
+        padding: 109px 8px 0px 0px;
+    }
+
+    .google-play {
+        padding: 115px 37px 0px 0px;
+    }
+}
